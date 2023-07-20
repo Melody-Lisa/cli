@@ -1,0 +1,148 @@
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+.alert-container .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.site-wide-alert {
+    color: #544600;
+    background-color: #eec802;
+    border-color: #eec802;
+    padding: 5px 15px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+    border-radius: 0;
+}
+
+.callout-container {
+    height: 100vh;
+
+    background: url(images/whiskey-barrels.jpg) no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+
+}
+
+.quotes-container {}
+
+.features-container {}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(82, 42, 23, 0.3);
+}
+
+/* Navbar */
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar {
+    margin-bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .25);
+    border: 0;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
+
+/* Block Dividers */
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+}
+
+.block-divider-orange {
+    background-color: #d63d01;
+}
+
+.block-divider-short {
+    width: 35px;
+}
+
+/* Jumbotron */
+
+.jumbotron-header {
+
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron .lead {
+    color: #ffffff;
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: #ffffff;
+}
+
+.jumbotron,
+.free {
+    color: #d63d01;
+    font-weight: bold;
+}
+
+/* Buttons */
+
+.btn-cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn-orange {
+    color: white;
+    background-color: #d63d01;
+    border-color: #522a04;
+}
+
+.btn-orange:hover,
+.btn-orange:active,
+.btn-orange:focus,
+.btn-orange:active:focus {
+    color: #d63d01;
+    background-color: white;
+    border-color: #522a04;
+}
