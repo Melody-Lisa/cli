@@ -102,6 +102,10 @@ body {
     background-color: #d63d01;
 }
 
+.block-divider-white {
+    background-color: white;
+}
+
 /* Jumbotron */
 
 .jumbotron-header {
