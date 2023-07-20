@@ -2,7 +2,6 @@ body {
     font-family: 'Playfair Display', serif;
 }
 
-.container-wrapper {}
 
 .container-wrapper--red {
     background-color: #d63d01;
@@ -100,6 +99,7 @@ body {
 
 .block-divider-short {
     width: 35px;
+    background-color: #d63d01;
 }
 
 /* Jumbotron */
